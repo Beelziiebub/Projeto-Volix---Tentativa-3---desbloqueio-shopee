@@ -1,0 +1,111 @@
+VOLIX - COMO EXECUTAR O PROJETO
+
+PROGRAMAS NECESSÁRIOS
+=====================
+
+1. Node.js 20 LTS
+   Download:
+   https://nodejs.org
+
+   Versão utilizada:
+   v20.20.2
+
+2. Windows 10 ou Windows 11
+
+3. Navegador (Chrome, Edge ou Firefox)
+
+--------------------------------------------------
+
+PRIMEIRA EXECUÇÃO
+=================
+
+1. Abrir PowerShell ou CMD
+
+2. Entrar na pasta do projeto
+
+Exemplo:
+
+cd "C:\Users\SEU_USUARIO\Downloads\volix-final"
+
+3. Instalar as dependências do backend
+
+npm install --prefix backend
+
+Aguardar finalizar.
+
+--------------------------------------------------
+
+EXECUTAR O SISTEMA
+==================
+
+Na pasta principal do projeto:
+
+npm start
+
+Se tudo estiver correto aparecerá:
+
+Volix rodando em http://localhost:3000
+
+--------------------------------------------------
+
+ABRIR O SISTEMA
+===============
+
+Abrir o navegador e acessar:
+
+http://localhost:3000
+
+--------------------------------------------------
+
+OBSERVAÇÕES
+===========
+
+- Não fechar a janela do PowerShell enquanto estiver usando o sistema.
+- Se fechar o PowerShell, o sistema para de funcionar.
+- Para iniciar novamente basta executar:
+
+npm start
+
+--------------------------------------------------
+
+PROBLEMAS COMUNS
+================
+
+Erro: "node não é reconhecido"
+
+Solução:
+Instalar ou reinstalar o Node.js 20 LTS.
+
+Erro: "Cannot find module"
+
+Solução:
+Executar novamente:
+
+npm install --prefix backend
+
+Erro: Porta 3000 já está em uso
+
+Solução:
+Fechar a outra aplicação que esteja usando a porta 3000.
+
+--------------------------------------------------
+
+PARAR O SISTEMA
+===============
+
+Na janela do PowerShell:
+
+CTRL + C
+
+Depois:
+
+Y
+
+e Enter.
+
+--------------------------------------------------
+
+ENDEREÇO DO SISTEMA
+===================
+
+http://localhost:3000

@@ -1,0 +1,135 @@
+VOLIX - COMO EXECUTAR NO LINUX + MAC
+
+PROGRAMAS NECESSÁRIOS
+=====================
+
+1. Node.js 20 LTS
+   Download:
+   https://nodejs.org
+
+   Versão utilizada:
+   v20.20.2
+
+2. Linux ou macOS
+
+3. Terminal
+
+4. Navegador (Chrome, Firefox, Safari ou Edge)
+
+--------------------------------------------------
+
+PRIMEIRA EXECUÇÃO
+=================
+
+1. Abra o Terminal.
+
+2. Entre na pasta do projeto:
+
+cd /caminho/para/volix-final
+
+Exemplo no Linux:
+
+cd ~/Downloads/volix-final
+
+Exemplo no Mac:
+
+cd ~/Downloads/volix-final
+
+3. Instale as dependências:
+
+npm install --prefix backend
+
+Aguarde terminar.
+
+--------------------------------------------------
+
+EXECUTAR O SISTEMA
+==================
+
+Na pasta principal do projeto:
+
+npm start
+
+Se estiver tudo correto aparecerá:
+
+Volix rodando em http://localhost:3000
+
+--------------------------------------------------
+
+ABRIR O SISTEMA
+===============
+
+Abra o navegador e acesse:
+
+http://localhost:3000
+
+--------------------------------------------------
+
+FORMA MAIS FÁCIL
+================
+
+O projeto possui um script para Linux e Mac.
+
+Dentro da pasta do projeto, execute:
+
+chmod +x rodar
+
+Depois:
+
+./rodar
+
+O script instala as dependências, prepara o banco,
+executa os testes e inicia o servidor.
+
+--------------------------------------------------
+
+OBSERVAÇÕES
+===========
+
+- Não fechar o Terminal enquanto estiver usando o sistema.
+- Se fechar o Terminal, o servidor será encerrado.
+- Para iniciar novamente:
+
+npm start
+
+--------------------------------------------------
+
+PARAR O SISTEMA
+===============
+
+No Terminal pressione:
+
+CTRL + C
+
+--------------------------------------------------
+
+PROBLEMAS COMUNS
+================
+
+Erro: "node: command not found"
+
+Solução:
+Instalar o Node.js 20 LTS.
+
+Erro: "Cannot find module"
+
+Solução:
+
+npm install --prefix backend
+
+Erro de permissão ao executar ./rodar
+
+Solução:
+
+chmod +x rodar
+
+Depois:
+
+./rodar
+
+--------------------------------------------------
+
+ENDEREÇO DO SISTEMA
+===================
+
+http://localhost:3000
